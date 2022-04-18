@@ -1,18 +1,12 @@
-# Project Title
+# Dash-tookit
 
 - Makes it easier and faster to deploy dash applications with common templates.
 
 ## Description
 
 - A makes it easier and faster to deploy dash applications with common templates.
-- 
 
 ## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing
 
@@ -24,8 +18,9 @@ pip install -r requirement.txt
 
 ### Executing program
 1. launch application
+
 ```
-cd dash-example/example1
+cd dash-toolkit/example_txt2txt
 python app.py
 ```
 
