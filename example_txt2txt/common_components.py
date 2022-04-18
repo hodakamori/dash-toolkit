@@ -39,7 +39,7 @@ example_button = html.Div([
 
 code_button = html.A(
     transparent_button_with_icon("btn-clock", "fas fa-code", "Code"),
-    href='https://github.com',
+    href='https://github.com/hodakamori/dash-toolkit.git',
     target="_blank"
 )
 
