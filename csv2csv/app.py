@@ -31,4 +31,4 @@ callbacks.run(app)
 callbacks.result(app)
 callbacks.download_result(app)
 
-app.run_server(debug=True)
+app.run_server(host="0.0.0.0", debug=True)
