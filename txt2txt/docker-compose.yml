@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  txt2txt:
+    restart: always
+    build: .
+    container_name: 'txt2txt'
+    ports:
+      - '8050:8050'
+    working_dir: '/txt2txt/'
+    tty: true
+    volumes:
+      - ./:/txt2txt/
+    command: python app.py

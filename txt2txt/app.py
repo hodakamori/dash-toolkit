@@ -26,4 +26,4 @@ callbacks.document_modal(app)
 callbacks.run(app, input_names)
 callbacks.clear(app, input_names)
 
-app.run_server(debug=True)
+app.run_server(host="0.0.0.0", debug=True)
