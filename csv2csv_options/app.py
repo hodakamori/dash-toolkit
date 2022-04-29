@@ -8,8 +8,6 @@ import dash_uploader as du
 import callbacks
 from common_components import jumbotron
 from io_components import output_field, run_button, upload_box, download_result_button
-
-
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE, dbc.icons.FONT_AWESOME])
 os.makedirs('./uploads', exist_ok=True)
 
