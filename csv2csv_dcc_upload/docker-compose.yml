@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  txt2txt:
+    restart: always
+    build: .
+    container_name: 'csv2csv'
+    ports:
+      - '8050:8050'
+    working_dir: '/csv2csv/'
+    tty: true
+    volumes:
+      - ./:/csv2csv/
+    command: python app.py
